@@ -1,0 +1,8 @@
+sdesc: "Cryptographic algorithms and protocols for Python"
+ldesc: "A collection of cryptographic algorithms and protocols,
+implemented for use from Python. Among the contents of the package:
+MD2, MD4, AES, ARC2, Blowfish, CAST, DES, Triple-DES, ARC4, simple
+XOR, RSA, DSA, ElGamal, qNEW and RFC1751 module for converting 128-key
+keys."
+category: Libs Python
+requires: cygwin python
