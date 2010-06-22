@@ -23,14 +23,19 @@ Build requirements:
   python
 
 Canonical homepage:
-  http://www.amk.ca/python/code/crypto.html
-  http://sourceforge.net/projects/pycrypto
+  https://launchpad.net/pycrypto
+  http://www.dlitz.net/software/pycrypto/
   http://packages.debian.org/python-crypto
+
+  Old pages:
+  http://sourceforge.net/projects/pycrypto
+  https://launchpad.net/pycrypto
 
 Canonical download:
   See above
 
 Version control repository:
+  git://git.pycrypto.org:9419/crypto/pycrypto-2.x.git
 
 Mailing List:
 
@@ -39,8 +44,10 @@ Forum / Wiki:
 IRC channel:
 
 Upstream contact:
-  Author: Andrew Kuchling <comments@amk.ca>
-  Bugs: Andrew Kuchling <comments@amk.ca>
+  Author: Dwayne C. Litzenberger <dlitz@dlitz.net>
+  Bugs: https://bugs.launchpad.net/pycrypto/+bugs
+
+  [Old] Original Author: https://bugs.launchpad.net/pycrypto/+bugs
 
 License:
   GPL
