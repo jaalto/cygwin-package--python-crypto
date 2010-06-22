@@ -51,93 +51,30 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack python-crypto-2.0.1-1-src.tar.bz2
+  unpack python-crypto-2.0.1-2-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./python-crypto*.sh --verbose --gbs all
 
 This will create:
-  python-crypto-2.0.1-1.tar.bz2
-  python-crypto-2.0.1-1-src.tar.bz2
+  python-crypto-2.0.1-2.tar.bz2
+  python-crypto-2.0.1-2-src.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary distro:
-
-usr/lib/python2.5/site-packages/Crypto/Cipher/AES.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/ARC2.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/ARC4.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/Blowfish.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/CAST.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/DES.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/DES3.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/IDEA.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/RC5.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/XOR.dll
-usr/lib/python2.5/site-packages/Crypto/Cipher/__init__.py
-usr/lib/python2.5/site-packages/Crypto/Cipher/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/Hash/HMAC.py
-usr/lib/python2.5/site-packages/Crypto/Hash/HMAC.pyc
-usr/lib/python2.5/site-packages/Crypto/Hash/MD2.dll
-usr/lib/python2.5/site-packages/Crypto/Hash/MD4.dll
-usr/lib/python2.5/site-packages/Crypto/Hash/MD5.py
-usr/lib/python2.5/site-packages/Crypto/Hash/MD5.pyc
-usr/lib/python2.5/site-packages/Crypto/Hash/RIPEMD.dll
-usr/lib/python2.5/site-packages/Crypto/Hash/SHA.py
-usr/lib/python2.5/site-packages/Crypto/Hash/SHA.pyc
-usr/lib/python2.5/site-packages/Crypto/Hash/SHA256.dll
-usr/lib/python2.5/site-packages/Crypto/Hash/__init__.py
-usr/lib/python2.5/site-packages/Crypto/Hash/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/Protocol/AllOrNothing.py
-usr/lib/python2.5/site-packages/Crypto/Protocol/AllOrNothing.pyc
-usr/lib/python2.5/site-packages/Crypto/Protocol/Chaffing.py
-usr/lib/python2.5/site-packages/Crypto/Protocol/Chaffing.pyc
-usr/lib/python2.5/site-packages/Crypto/Protocol/__init__.py
-usr/lib/python2.5/site-packages/Crypto/Protocol/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/DSA.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/DSA.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/ElGamal.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/ElGamal.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/RSA.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/RSA.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/__init__.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/pubkey.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/pubkey.pyc
-usr/lib/python2.5/site-packages/Crypto/PublicKey/qNEW.py
-usr/lib/python2.5/site-packages/Crypto/PublicKey/qNEW.pyc
-usr/lib/python2.5/site-packages/Crypto/Util/RFC1751.py
-usr/lib/python2.5/site-packages/Crypto/Util/RFC1751.pyc
-usr/lib/python2.5/site-packages/Crypto/Util/__init__.py
-usr/lib/python2.5/site-packages/Crypto/Util/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/Util/number.py
-usr/lib/python2.5/site-packages/Crypto/Util/number.pyc
-usr/lib/python2.5/site-packages/Crypto/Util/randpool.py
-usr/lib/python2.5/site-packages/Crypto/Util/randpool.pyc
-usr/lib/python2.5/site-packages/Crypto/Util/test.py
-usr/lib/python2.5/site-packages/Crypto/Util/test.pyc
-usr/lib/python2.5/site-packages/Crypto/__init__.py
-usr/lib/python2.5/site-packages/Crypto/__init__.pyc
-usr/lib/python2.5/site-packages/Crypto/test.py
-usr/lib/python2.5/site-packages/Crypto/test.pyc
-usr/lib/python2.5/site-packages/pycrypto-2.0.1-py2.5.egg-info
-usr/share/doc/Cygwin/python-crypto-2.0.1.README
-usr/share/doc/python-crypto-2.0.1/ACKS
-usr/share/doc/python-crypto-2.0.1/ChangeLog
-usr/share/doc/python-crypto-2.0.1/LICENSE
-usr/share/doc/python-crypto-2.0.1/MANIFEST
-usr/share/doc/python-crypto-2.0.1/PKG-INFO
-usr/share/doc/python-crypto-2.0.1/README
-usr/share/doc/python-crypto-2.0.1/TODO
-usr/share/doc/python-crypto-2.0.1/pycrypt.tex
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 
+----- version 2.0.1-2 -----
+- New upstream release 2010-06-18 Jari Aalto
+
 ----- version 2.0.1-1 -----
 - Initial release 2007-10-01 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later

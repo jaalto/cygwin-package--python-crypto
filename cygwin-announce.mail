@@ -1,8 +1,6 @@
--- Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
-
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: python-crypto 2.0.1-1 -- Cryptographic algorithms and protocols for Python
+Subject: Updated: python-crypto 2.0.1-2 -- Cryptographic algorithms and protocols for Python
+--text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
@@ -24,7 +22,7 @@ for use from Python. Among the contents of the package:
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None.
+Built for Python 2.6
 
 INSTALL OR UPGRADE NOTES
 ========================

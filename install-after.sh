@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+# Copyright (C) 2007-2010 Jari Aalto; Licenced under GPL v2 or later
 #
 # install-after.sh -- Custom installation
 #

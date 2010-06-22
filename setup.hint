@@ -5,4 +5,4 @@ MD2, MD4, AES, ARC2, Blowfish, CAST, DES, Triple-DES, ARC4, simple
 XOR, RSA, DSA, ElGamal, qNEW and RFC1751 module for converting 128-key
 keys."
 category: Libs Python
-requires: cygwin python
+requires: python
