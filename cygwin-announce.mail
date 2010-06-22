@@ -5,7 +5,7 @@ Subject: Updated: python-crypto 2.0.1-2 -- Cryptographic algorithms and protocol
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://www.amk.ca/python/code/crypto.html
+Homepage: https://launchpad.net/pycrypto
 License : GPL
 
 A collection of cryptographic algorithms and protocols, implemented
@@ -22,7 +22,8 @@ for use from Python. Among the contents of the package:
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Built for Python 2.6
+- Built for Python 2.6
+- See https://launchpad.net/pycrypto/+announcement
 
 INSTALL OR UPGRADE NOTES
 ========================
