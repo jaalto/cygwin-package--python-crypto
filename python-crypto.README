@@ -57,15 +57,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack python-crypto-2.5-1-src.tar.bz2
+  unpack python-crypto-2.6-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./python-crypto*.sh --verbose --gbs all
 
 This will create:
-  python-crypto-2.5-1.tar.bz2
-  python-crypto-2.5-1-src.tar.bz2
+  python-crypto-2.6-1.tar.bz2
+  python-crypto-2.6-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -75,6 +75,9 @@ Files included in the binary distro:
 ------------------
 
 Port Notes:
+
+----- version 2.6-1 -----
+- New upstream release 2012-09-15 Jari Aalto
 
 ----- version 2.5-1 -----
 - New upstream release 2012-03-27 Jari Aalto
