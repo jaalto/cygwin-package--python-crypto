@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: python-crypto 2.6-1 -- Cryptographic algorithms and protocols for Python
+Subject: Updated: python-crypto 2.6-2 -- Cryptographic algorithms and protocols for Python
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -22,7 +22,8 @@ for use from Python. Among the contents of the package:
 CHANGES SINCE LAST RELEASE
 ==========================
 
-See https://launchpad.net/pycrypto/+announcement
+- Built for Python 2.7
+- See https://launchpad.net/pycrypto/+announcement
 
 INSTALL OR UPGRADE NOTES
 ========================
